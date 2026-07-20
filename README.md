@@ -7,6 +7,8 @@
 **English** | [فارسی](README.fa.md)
 
 > **Debug your own mind the way a senior engineer debugs an unfamiliar production system.**
+>
+> Prism is engineered to *reverse-engineer* your behavior down to its **root cause** — not to manage the symptom on the surface, but to trace a pattern back to the real driver underneath and prove which explanation actually holds.
 
 Prism is a small toolkit that helps you figure out *why you do the things you do*. You bring one puzzling behavior — "I don't know why I keep checking my phone," "why do I rewrite the same thing five times before I'm happy with it" — and Prism helps you break it apart into the different explanations that could be true, then test them against real life instead of just guessing.
 
@@ -41,6 +43,8 @@ Prism is a structured self-reflection tool. It's for anyone who has noticed a pa
 You do **not** need to be a programmer, and you do **not** need to have used an AI coding tool before. If you can copy a sentence and paste it into a chat box, you can use Prism. The [Quick start](#quick-start) walks you through it step by step.
 
 What makes it different from journaling or a chatbot pep talk: Prism is built to be *honest, not flattering*. It treats your beliefs about yourself as claims to be tested, actively hunts for evidence that you're wrong, and keeps a written record of what's been ruled out. It's a scientist for a subject of one — you.
+
+**Private by design.** Everything Prism creates is plain text saved in this folder on your own computer. Nothing is uploaded to any server, and nothing reaches git or GitHub unless you deliberately push it — your personal hypotheses, sessions, and experiments are git-ignored by default, so your inner life never leaves your machine.
 
 ## A quick vocabulary
 
@@ -195,7 +199,7 @@ Separation of duties. One agent that investigates *and* tests *and* keeps the pe
 It's how strongly the current evidence backs a hypothesis, from `0.00` to `1.00`. It never reaches `1.00` on purpose: a claim you treat as 100% certain is one you've stopped testing, and that's exactly the blind spot Prism is built to find.
 
 **Where does my data live?**
-Entirely in this folder on your machine, as plain Markdown files. Nothing is uploaded anywhere by Prism itself. See the [Privacy note](#privacy-note) before you share or push the repo.
+Entirely in this folder on your machine, as plain Markdown files — and git-ignored by default, so they're never committed even if you push the repo. Nothing is uploaded anywhere by Prism itself. See the [Privacy note](#privacy-note) before you share or push.
 
 **Can I just delete the example?**
 Yes — once you've run your first real investigation, delete `H000-example-notification-checking.md` and its row in `MODEL.md`. It's only there to show you the format.
@@ -206,7 +210,7 @@ This is a self-reflection and journaling framework, not a medical or mental-heal
 
 ## Privacy note
 
-Once you start using this for yourself, `cognitive-model/hypotheses/`, `sessions/`, and `experiments/` will fill up with real, potentially sensitive information about you. If you forked this repo to run your own model, consider making that fork **private**, or `.gitignore`-ing those three folders and keeping your real data local only — see the commented-out section in [`.gitignore`](.gitignore).
+Prism runs entirely on your own machine. Everything it produces is plain Markdown saved inside this folder — nothing is sent to any server, and **your personal data is never committed to git by default.** Once you start using it for real, `cognitive-model/hypotheses/`, `sessions/`, and `experiments/` fill up with sensitive material about you; the included [`.gitignore`](.gitignore) already excludes those from version control (keeping only the worked example and the folder READMEs), so even if you push your copy, your private entries stay local. For extra peace of mind, you can also make your fork **private**.
 
 ## License
 

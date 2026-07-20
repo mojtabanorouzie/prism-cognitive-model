@@ -6,13 +6,14 @@ Thumbs.db
 .vscode/
 .idea/
 
-# If you fork this repo to run your own real model, cognitive-model/hypotheses,
-# sessions, and experiments will fill up with real personal data. Uncomment the
-# lines below to keep that data out of git entirely (and consider making your
-# fork private too):
-# cognitive-model/hypotheses/*
-# !cognitive-model/hypotheses/H000-example-notification-checking.md
-# cognitive-model/sessions/*
-# !cognitive-model/sessions/README.md
-# cognitive-model/experiments/*
-# !cognitive-model/experiments/README.md
+# Your personal model data stays on your machine, never in git.
+# The real hypotheses, sessions, and experiments you generate are excluded from
+# version control by default — only the worked example and the folder READMEs
+# are tracked. (Want to keep your own private history in a *private* repo
+# instead? Delete the matching lines below.)
+cognitive-model/hypotheses/*
+!cognitive-model/hypotheses/H000-example-notification-checking.md
+cognitive-model/sessions/*
+!cognitive-model/sessions/README.md
+cognitive-model/experiments/*
+!cognitive-model/experiments/README.md
