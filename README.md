@@ -23,7 +23,7 @@ Under the hood it's three cooperating **Claude Code sub-agents** (small, special
 - [What it is / who it's for](#what-it-is--who-its-for)
 - [A quick vocabulary](#a-quick-vocabulary)
 - [Why this exists](#why-this-exists)
-- [How it works — three agents, one rule](#how-it-works--three-agents-one-rule)
+- [How it works — three agents, one rule](#how-it-works--three-agents-one-rule-propose-vs-commit)
 - [Quick start](#quick-start)
   - [Option A — Claude Code (recommended, zero setup)](#option-a--claude-code-recommended-zero-setup)
   - [Option B — Any other model (ChatGPT, Gemini, Claude.ai, local)](#option-b--any-other-model-chatgpt-gemini-claudeai-a-local-model-anything-with-a-chat-box)
