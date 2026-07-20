@@ -10,7 +10,7 @@ related: []
 supersedes: []
 ---
 
-> **This is a worked example, not real data.** It exists so you can see the schema filled in before you write your own. Delete this file (and its row in [`../MODEL.md`](../MODEL.md)) once you've seeded your own model — see the quick start in the top-level [README](../../README.md).
+> **This is a worked example, not real data.** It's here to show you what a finished hypothesis looks like — the frontmatter, the mechanism written as a loop, evidence on *both* sides, and a confidence log — before you write your own. Once you've run your first real investigation, delete this file (and its row in [`../MODEL.md`](../MODEL.md)). See the quick start in the top-level [README](../../README.md) ([فارسی](../../README.fa.md)).
 
 ## Statement
 The urge to check a phone the moment it buzzes is driven more by an intolerance of the "unknown" state than by wanting to see the actual message.

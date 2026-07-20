@@ -1,6 +1,6 @@
 # Schemas
 
-Every agent reads and writes these exact shapes so the store stays parseable. Copy a block, don't improvise the structure.
+The exact file shapes every Prism agent reads and writes, so the store stays machine-parseable. These are contracts, not suggestions: copy a block verbatim and fill it in — don't rename fields or improvise the structure, or the other agents won't be able to read what you wrote.
 
 Confidence is always a float `0.00`-`1.00`. Anchors: `<0.20` unlikely · `~0.50` genuinely uncertain, test it · `>0.80` well-supported. Never `1.00`.
 

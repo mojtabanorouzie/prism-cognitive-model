@@ -1,8 +1,8 @@
 # cognitive-model
 
-An evidence ledger for reverse-engineering one mind. Not a journal — a knowledge graph with confidence scores, run by three agents.
+The evidence ledger at the heart of Prism — where reverse-engineering one mind actually gets stored. Not a journal: a knowledge graph of hypotheses with confidence scores, maintained by three cooperating agents.
 
-This is the internal architecture doc — how the store and the three agents fit together. For installation and how to use this without Claude Code, see the top-level [../README.md](../README.md). For the exact command list, see [../CHEATSHEET.md](../CHEATSHEET.md) ([Persian version](../CHEATSHEET.fa.md)).
+This is the internal architecture doc — how the store and the three agents fit together. If you just want to *use* Prism (including without Claude Code), start with the top-level [README](../README.md) ([فارسی](../README.fa.md)). For the exact command list, see the [cheat sheet](../CHEATSHEET.md) ([فارسی](../CHEATSHEET.fa.md)).
 
 ## The system
 

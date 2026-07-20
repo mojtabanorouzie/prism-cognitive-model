@@ -1,8 +1,10 @@
-# Cheat sheet
+# Prism — Cheat sheet
 
-These aren't slash commands — they're natural-language delegations you type to the main Claude Code conversation, which routes them to the right subagent. Full architecture is in [README.md](README.md). Not using Claude Code? See "Option B" in the README — the same commands work as plain instructions to whatever model you paste the agent prompt into.
+**English** | [فارسی](CHEATSHEET.fa.md)
 
-🇮🇷 نسخه فارسی: [CHEATSHEET.fa.md](CHEATSHEET.fa.md)
+These aren't slash commands — they're plain-English delegations you type into the main Claude Code conversation, which routes them to the right subagent. The one thing that must be exact is the **agent name** (`cognitive-systems-analyst`, `behavioral-experiment-designer`, `cognitive-historian`); phrase the rest however you like.
+
+New to the project? Start with the [README](README.md) ([فارسی](README.fa.md)). Not using Claude Code? See "Option B" in the README — the same commands work as plain instructions to whatever model you paste the agent prompt into.
 
 ## Core loop
 
