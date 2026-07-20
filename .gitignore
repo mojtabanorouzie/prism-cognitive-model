@@ -1,0 +1,18 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# If you fork this repo to run your own real model, cognitive-model/hypotheses,
+# sessions, and experiments will fill up with real personal data. Uncomment the
+# lines below to keep that data out of git entirely (and consider making your
+# fork private too):
+# cognitive-model/hypotheses/*
+# !cognitive-model/hypotheses/H000-example-notification-checking.md
+# cognitive-model/sessions/*
+# !cognitive-model/sessions/README.md
+# cognitive-model/experiments/*
+# !cognitive-model/experiments/README.md
